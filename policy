@@ -1,0 +1,57 @@
+# Privacy Policy for GeiDeLei
+
+**Last updated:** 2026-07-14
+
+GeiDeLei ("the app") is built to do one thing — listen to a word, translate it, and
+speak it back — without collecting, storing, or selling any personal information
+about you.
+
+## What we don't do
+
+- We don't collect, log, or store your voice, your translations, or any personal
+  information.
+- We don't require an account, sign-in, or profile of any kind.
+- We don't use analytics, tracking, or advertising SDKs.
+- We don't sell or share data with advertisers or data brokers.
+- Nothing you say is saved anywhere — not on your device beyond the current
+  session, and not on any server we control, because we don't operate one.
+
+## What the app actually does with your voice
+
+Speech recognition happens entirely on your device using Apple's built-in Speech
+framework — the audio never leaves your phone for this step.
+
+To translate the recognized word, the app sends that single word (not a recording,
+not any other information) to one of the following third-party translation
+services, depending on which one you've selected in the app's settings:
+
+- MyMemory (api.mymemory.translated.net)
+- LibreTranslate, via community-run instances (e.g. translate.fedilab.app)
+- Google Translate's public translation endpoint (translate.googleapis.com)
+
+These services receive only the text of the word being translated and the source/
+target language codes — no name, no device identifier, no account, no location.
+We don't control these third-party services and encourage you to review their own
+privacy practices if you'd like more detail. This transmission happens only while
+you're actively using the app to translate; nothing is sent in the background.
+
+## Microphone and speech recognition permissions
+
+The app asks for microphone and speech recognition access solely to hear the word
+you want translated. These permissions are used only while the app is open and
+actively listening, and you can revoke them at any time in Settings → GeiDeLei.
+
+## Children's privacy
+
+GeiDeLei does not knowingly collect any information from anyone, including
+children, because it does not collect information from anyone at all.
+
+## Changes to this policy
+
+If this policy ever changes — for example, if a future version of the app adds a
+feature that involves data collection — this page will be updated and the "Last
+updated" date above will reflect that.
+
+## Contact
+
+Questions about this policy can be sent to: [YOUR CONTACT EMAIL]
